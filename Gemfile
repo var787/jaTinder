@@ -49,3 +49,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 #User Auth
 gem 'devise'
+
+#aws storage
+gem "aws-sdk-s3", require: false
