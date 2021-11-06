@@ -10,5 +10,6 @@
         <a class="me-3 py-2 text-dark text-decoration-none" href="#">Support</a>
         <a class="me-3 py-2 text-dark text-decoration-none" href="#">Pricing</a>
       </nav>
-      <a class="btn btn-outline-primary" href="#">Sign up</a>
+      <%= link_to "Sign in", new_account_session_path, class: "btn btn-secondary ml-auto" %>
+      <%= link_to "Sign Up", new_account_registration_path, class: "btn btn-outline-primary" %>
     </div> 
